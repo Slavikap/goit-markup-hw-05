@@ -232,7 +232,7 @@ h1 {
   align-items: center;
 }
 
-.visually-hidden-features {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -338,8 +338,6 @@ h1 {
 }
 
 .social-svg {
-  width: 16px;
-  height: 16px;
   fill: rgba(244, 244, 253, 1);
 }
 
@@ -476,11 +474,7 @@ h1 {
 }
 
 .footer-wrapper {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 264px;
-  height: 72px;
+  margin-right: auto;
 }
 
 .footer {
@@ -491,13 +485,11 @@ h1 {
 
 .container-footer {
   display: flex;
-  gap: 120px;
   align-items: baseline;
 }
 
 .logo-wrapper {
-  display: flex;
-  flex-direction: column;
+  margin-right: 120px;
 }
 
 .list-socials-footer {
@@ -762,18 +754,6 @@ h1 {
 .privacy-policy {
   max-width: 360px;
   margin-bottom: 24px;
-}
-
-.visually-hidden-modal {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
 }
 
 .policy-text {
